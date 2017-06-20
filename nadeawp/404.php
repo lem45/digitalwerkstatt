@@ -3,7 +3,7 @@
 <?php $wr_options = get_option('nadea_wp'); ?> 
 <?php global $post; ?>
 
-		<!-- Page Title Section Start -->
+		<!-- Page Title Section Start  hh -->
 		
 		<?php if($wr_options['page-banner'] == 'no') {?>
 		<!-- Empty -->
