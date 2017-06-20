@@ -1,0 +1,167 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.slider-portfolio-wrapper {
+	background:#eeeeee;
+	margin-bottom:50px;
+	margin-top:50px;
+	position:relative;
+	width:100%;
+}
+
+.owl-slider-portfolio {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.slider-item {
+	height:auto;
+	background:#fff;
+}
+
+.slider-item .slider-left {
+	float:left;
+	width:70%;
+}
+
+.slider-item .slider-left img {
+	width:100%;
+	height:auto;
+}
+
+.slider-item .slider-right {
+	float:right;
+	width:30%;
+	font-size:14px;
+	height:100%;
+	line-height:160%;
+}
+
+.slider-item .slider-right > div {
+	padding:15px 20px;
+}
+
+.owl-slider-portfolio {
+	visibility:hidden;
+}
+
+.owl-slider-portfolio a {
+	color:#000;
+}
+
+.slider-header {
+	/* background:#2fa0b7; */
+	color:#fff;
+	font-size:16px;
+}
+
+.slider-header.dws-portfolio-cat-fuer-erwachsene {
+	color:#000;
+}
+
+.slider-content-title {
+	font-size:26px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.owl-pagination {
+	margin-bottom:-15px;
+}
+
+.owl-theme .owl-controls {
+	margin-top:18px !important;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
+
+@media (max-width: 1024px){
+	.slider-item .slider-left,
+	.slider-item .slider-right {
+		width:100%;
+		clear:both;
+	}
+	
+	.slider-item .slider-right {
+		padding-bottom:20px;
+	}
+	
+}
+
+

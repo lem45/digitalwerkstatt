@@ -1,0 +1,686 @@
+@charset "UTF-8";
+/* CSS Document */
+/* --------------- ------------------- ----------------- GLOBAL ----- */
+
+#wp-admin-bar-HABADigitalwerkstattWPTheme{display: none;}
+img{height: auto;}
+body {
+	
+    color: #00354d;
+    font-family:  'Maven Pro', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: left;
+	
+	
+	
+}
+p, h1, h2, h3, h4, h5 { 
+ -webkit-hyphens: auto;
+ -moz-hyphens: auto;
+ -ms-hyphens: auto;
+ hyphens: auto;
+	 
+}
+		
+/*#lang_sel_list{display:none;}*/
+
+.dws-head-container{
+	width: 100%;
+	padding-right: 0px;
+
+}
+
+/* --------------- ------------------- ----------------- BUTTONS ----- */
+a.dws-button{
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 1.3em;
+    padding: 0.5em 1.5em 0.7em 1.5em;
+    display: inline-block;
+    margin: 1em auto;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 0 0 10px 0;
+    box-sizing: border-box;
+   /* float: left;*/
+    clear: both;
+} 
+.dws-fullwidth-button a.dws-button{
+	margin: 0;
+	    border-radius: 0 0 10px 10px;
+}
+
+a.dws-button-bg1{
+	    background-color: #B0C822;
+
+}
+a.dws-button-bg2 {
+    background-color: #2FA0B7;
+}
+
+a.dws-button:hover{
+	background-color: #000 !important;
+	color: #fff;
+}
+
+/* --------------- ------------------- ----------------- Mail Chimp EMBED ----- */
+#mc_embed_signup{
+	padding: 3em;
+	background:#eee;
+	border-radius: 10px ;
+	}
+div.mc-field-group input	{
+	width: 100%;
+	max-width: 400px;
+	}
+	
+input.button {
+	
+font-size: 2em;	
+color:#FFF;
+background-color: #2FA0B7;
+padding: 1em;
+border: none;
+border-radius: 5px ;
+margin: 1em 0;
+
+	}
+	
+/* --------------- ------------------- ----------------- Mail Chimp PLUGIN ----- */	
+	
+.mc4wp-form-fields{
+	padding: 3em;
+	background:#eee;
+	border-radius: 10px ;
+	}
+
+.mc4wp-form-fields label{
+	font-weight:200;
+}
+	
+.mc4wp-form-fields input{
+	width: 100%;
+	max-width: 400px;
+	}	
+	
+/* --------------- ------------------- ----------------- NAVIGATION ----- */
+#mainNav{
+	background-color: #000;
+	border-radius: 0 0 0 10px;
+}
+
+#mainNav .navTabs /*li:first-child*/ .menu-item-13 a{
+	border-radius: 0 0 0 4px;
+}
+#mainNav .navTabs .menu-item-13 .sub-menu a{
+	border-radius: 0 0 0 0px;
+}
+#mainNav .navTabs /*li:first-child*/ .menu-item-371 a{
+	border-radius: 0 0 0 4px;
+}
+#mainNav .navTabs /*li:first-child*/ .menu-item-13 a:hover,
+#mainNav .navTabs /*li:first-child*/ .menu-item-371 a:hover{
+	border-radius: 0 0 0 0 !important;
+}
+#mainNav .navTabs .sub-menu li:last-child a{
+	border-radius: 0 0 4px 4px;
+}
+
+.ndheaderv-9  ul li.current_page_item a:hover,
+.ndheaderv-9  ul li.current-menu-ancestor a:hover,
+.ndheaderv-9  ul li.current-menu-item a:hover,
+.ndheaderv-9  ul li.current-menu-parent a:hover,
+.mainNav .navTabs > li .dropDown li a:hover {
+    color: #ffffff;
+    background-color: #B0C822 !important;
+}
+
+/* --------------- ------------------- ----------------- HEADER ----- */
+#header{
+	z-index: 999;
+}
+.header .scrollHeaderWrapper {
+    height: auto !important;
+}
+.dws-page-header{
+	position: relative;
+	z-index: 100; 
+
+}
+.dws-page-header .dws-page-header-logo{
+	max-width: 400px;
+
+}
+.dws-page-header .dws-logo{
+	max-width: 400px;
+	overflow: hidden;
+	margin: 10px 0 25px 0; 
+	
+}
+.dws-page-header-logo img{
+	max-width: 100%;
+	width: 100%;
+}
+.dws-page-header canvas{
+        
+        opacity: 1;
+		z-index: 98;
+		width: 100%;
+		margin: -125px 0 -5px 0; 
+		
+		
+		
+}
+/* --------------- ------------------- ----------------- HOMEPAGE ----- */
+.dws-logo{
+	margin: 40px 0 20px 0;
+	float: left;
+	max-width: 800px;
+	width: 100%;
+	z-index: 99;
+}
+canvas{
+        
+        opacity: 1;
+		z-index: 98;
+		width: 100%;
+		margin: -86px 0 -5px 0;
+		
+		
+		
+}
+
+.tp-carousel-wrapper{
+	width: 100% !important;
+	left: 0 !important;
+}
+/* --------------- ------------------- -----------------  CUSTOM SECTIONS */
+
+.dws-fullwidth-section{
+	width: 100%;
+	padding: 0;
+	
+}
+.dws-fullwidth-wrapper{
+	width: 90%;
+	padding: 0;
+	max-width: 1220px;
+	margin: 0 auto;
+	
+}
+.dws-two-third-container{
+	/*padding-left: 12%;*/
+}
+.dws-two-third-section{
+	/*padding: 2em 5% 5% 2em;*/
+	float:	left;
+	width: 63%;
+	
+	max-width: 820px;
+}
+.dws-one-third-section{
+	margin: 0;
+	float:	left;
+	width: 33%;
+
+}
+.dws-two-third-container .dws-one-third-section{
+	margin-right: 0;
+}
+.dws-two-third-container .dws-two-third-section{
+	margin-right: 3%;
+}
+.dws-one-third-container .dws-one-third-section{
+	margin-right: 3%;
+}
+.dws-one-third-container .dws-two-third-section{
+	margin-right: 0;
+}
+.dws-quote-section{
+	width: 100%;
+	padding: 7% 18% 2% 18%;
+	text-align: center;
+	background-color: #FFF;
+}
+.dws-quote{
+	font-size: 28px;
+	font-style: italic;
+	line-height: 160%;
+}
+.dws-quote-source{
+	padding: 25px 0;
+}
+.dws-three-col-headline{
+	width: 100%;
+	padding: 4% 5% 0 5%;
+	text-align:center;
+}
+.dws-three-col-wrapper{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1% 0 3% 0;
+}
+.dws-three-col{
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+	text-align: center;
+}
+.dws-three-col-wrapper last{
+	margin-right: 0;
+}
+.dws-three-col p{
+	text-align: justify;
+}
+.dws-fullwidth-button{
+	padding: 0 0 40px 0;
+	height: 100px;
+	text-align: center;
+}
+.dws-fullwidth-wrapper ul{
+	font-size: 160%;
+	padding-left: 40px;
+	line-height: 120%;
+}
+.dws-komp{
+	width:46%;
+	margin-right:8%;
+	float: left;
+	}
+.dws-komp h2 {
+	font-size: 2.5rem;
+	}
+.dws-komp-2er{
+	width:48%;
+	margin-right:4%;
+	float: left;
+	}
+.dws-komp:last-child{
+	margin-right:0;
+	}
+.dws-komp-2er:last-child{
+	margin-right:0;
+	}
+	
+/* --------------- ------------------- ----------------- KURSE UND WORKSHOPS ----- */
+
+.dws-portfolio-filter-wrapper{
+	height: 80px;
+	position: relative;
+}
+.dws-portfolio-filter-wrapper .portfolioFilter{
+	position: absolute;
+	bottom: 0;
+}
+.dws-kw-three-col .Photo{
+	height: 340px;
+}
+.portfolioFilter ul li a.current {
+    padding: 20px 15px 10px 15px;
+}
+.portfolioContainer a img:hover{
+	/*opacity: 0.9;*/
+	
+
+}
+.dws-courses-grid-image-headline{
+	overflow: hidden;
+	display: block;
+    height: 30px;
+    width: 100%;
+    background-color: #eee;
+    border-radius: 4px 4px 0 0;
+}
+.dws-courses-grid-image-headline span{
+	font-size: 14px;
+	font-weight: 400;
+	color:	#000;
+	margin: 7px 0 0 7px;
+    display: block;
+}
+.dws-kw-three-col .port-title{
+	height: 40px;
+	display: block;
+}
+.dws-kw-three-col .portfolioFilter li.dws-kw-all{
+	background-color: #666;
+	color: #FFF;
+	 border-radius: 4px 0px 0 0;
+}
+.dws-kw-three-col .portfolioFilter li a{
+
+	color: #000;
+	font-weight: 700;
+}
+.dws-kw-three-col .portfolioFilter li.dws-kw-all a{
+	color: #FFF;
+}
+.portfolioFilter li.dws-course-filter-featured-en,
+.portfolioFilter li.dws-course-filter-featured{
+	display: none;
+}
+li.courses .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-courses, .dws-portfolio-cat-courses,
+li.kurse .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-kurse, .dws-portfolio-cat-kurse{
+	background-color: #afc822;
+}
+li.workshops-en .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-workshops-en, .dws-portfolio-cat-workshops-en,
+li.workshops .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-workshops, .dws-portfolio-cat-workshops{
+	background-color: #30a0b8;
+}
+
+li.school-collaboration .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-school-collaboration, .dws-portfolio-cat-school-collaboration,
+li.schulkooperationen .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-schulkooperationen, .dws-portfolio-cat-schulkooperationen{
+	background-color: #c31f78;
+}
+
+li.trialsession .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-trialsession, .dws-portfolio-cat-trialsession,
+li.schnupperstunde .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-schnupperstunde, .dws-portfolio-cat-schnupperstunde{
+	background-color: #e51f2e;
+}
+
+li.for-adults .dws-courses-grid-image-headline, li.dws-course-filter-for-adults, .dws-portfolio-cat-for-adults,
+li.fuer-erwachsene .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-fuer-erwachsene, .dws-portfolio-cat-fuer-erwachsene{
+	background-color: #f5f5f5;
+}
+
+li.holiday-camps .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-holiday-camps, .dws-portfolio-cat-holiday-camps,
+li.summercamps .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-summercamps, .dws-portfolio-cat-summercamps{
+	background-color: #ffe603;
+}
+
+li.holiday-camps .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-holiday-camps, .dws-portfolio-cat-ho-camps,
+li.feriencamps .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-feriencamps, .dws-portfolio-cat-feriencamps{
+	background-color: #ffe603;
+}
+li.kindergeburtstag .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-kindergeburtstag, .dws-portfolio-cat-kindergeburtstag,
+li.birthdayparty .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-birthdayparty, .dws-portfolio-cat-birthdayparty{
+	background-color: #f17201;
+}
+li.fuer-lehrer .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-fuer-lehrer, .dws-portfolio-cat-fuer-lehrer,
+li.for-teachers .dws-courses-grid-image-headline, .portfolioFilter li.dws-course-filter-for-teachers, .dws-portfolio-cat-for-teachers{
+	background-color: #dcdcdc;
+}
+/* --------------- ------------------- ----------------- KURSE UND WORKSHOPS POST ----- */
+.dws-portfolio-twothird{
+	width: 63%;
+	max-width: 820px;
+	
+	margin-right: 3%;
+	float: left;
+}
+.dws-portfolio-onethird{
+	width: 33%;
+
+	margin: 0;
+	float: left;
+}
+.dws-portfoliosingle-image{
+	position: relative;
+	overflow: hidden;
+}
+.dws-portfoliosingle-desc{
+	color: #000;
+    height: 34px;
+    /* width: 50%; */
+    font-size: 18px;
+    padding: 10px 20px 0 10px;
+	position: absolute;
+	bottom: -1px;
+}
+.dws-portfolio-subtitle{
+
+    margin: 40px 0 30px 0;
+    font-size: 18px;
+	font-weight: 400;
+}
+.dws-portfolio-cat-workshops{
+	
+}
+.dws-portfolio-coach-name{
+	font-size: 18px;
+	margin: 20px 0 5px 0;
+}
+.dws-course-form{
+	width: 100%;
+	max-width: 560px;
+
+}
+.dws-course-form textarea{
+ 	margin-bottom: 1px !important;
+ }
+.dws-course-form .form-left, .dws-course-form .form-right{
+	/*float: left;
+	display: inline;
+	width: 45%;*/
+}
+.dws-course-form .form-right{
+	/*margin-left: 8%;*/
+}
+
+.dws-courses-form-desc{
+
+	font-size: 160%;
+	 margin-bottom: 40px;
+	 width: 90%;
+	
+}
+
+
+.wpcf7 form input[type="submit"], #wpcf7-f114-o1 form input[type="submit"]{
+	background-color: #30a0b8;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 1.3em;
+    padding: 0.5em 1.5em 0.7em 1.5em;
+    display: inline-block;
+    margin: 1em auto;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 0 0 10px 0;
+    box-sizing: border-box;
+    /* float: left; */
+    clear: both;
+	font-family: Maven Pro, 'sans-serif';
+    text-transform: none;
+	height: 60px;
+}
+#wpcf7-f4-o1 form input[type="submit"]:hover, #wpcf7-f114-o1 form input[type="submit"]:hover{
+	/*opacity: 0.8;*/
+	background-color: #000;
+	 transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+.wpcf7 form textarea, .wpcf7 form input {
+
+	border: 0px none !important;
+}
+.wpcf7-response-output {
+    font-size: 2.5em;
+	line-height: 160%;
+   
+}
+/* contact form 7 output */
+div.wpcf7-response-output{
+	border: 4px solid !important;
+	background: #666666;
+	color: #FFF;
+	font-weight: bold;
+}
+div.wpcf7-mail-sent-ok{
+
+	background: #30a0b8 !important;
+}
+div.wpcf7-validation-errors{
+background: #de5252;
+}
+span.wpcf7-not-valid-tip {
+
+    font-size: 2em !important;
+
+    margin: 10px 0;
+}
+/* --------------- ------------------- ----------------- FOOTER ----- */
+.dws-footer .col-sm-12{
+	text-align: center;
+}
+.dws-footer .col-sm-12 p{
+	color: #999;
+	font-size: 170%;
+}
+.dws-footer a{
+	color: #eee;
+	
+}
+.dws-footer a:hover{
+	color: #B0C822;
+	
+}
+.dws-footer .dws-social-links{
+	
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.dws-footer .dws-social-links .dws-fb{
+	padding: 0 10px 30px 0;
+}
+.dws-footer .dws-social-links .dws-tw{
+	padding: 0 0px 30px 0;
+}
+
+
+/*---------------------------------------------------------------*/
+/*                 		RESPONSIVE
+/*---------------------------------------------------------------*/
+@media (min-width: 1200px){
+.container {
+   max-width: 1220px !important;
+   width: 100% !important;
+}
+	.sozial{
+		margin-bottom: -80px;
+	}
+}
+@media (max-width: 1199px){
+ul.portfolioContainer li .lightCon {
+
+    height: 200px !important;
+}
+.dws-kw-three-col .Photo{
+	height: 300px;
+}
+.port-title h4{font-size: 180% !important; line-height: 150% !important;}
+}
+@media (max-width: 990px){
+ul.portfolioContainer li .lightCon {
+
+    height: 160px !important;
+}
+.port-title h4{font-size: 160% !important;}
+
+
+
+.dws-komp{
+	width:46%;
+	margin-right:8%;
+	}
+.dws-komp-2er{
+	width:100%;
+	margin-right:0;
+	}
+	
+}
+
+
+@media (max-width: 768px){
+
+.dws-two-third-section{
+	/*padding: 2em 5% 5% 2em;*/
+	float:	none;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.dws-one-third-section{
+	float:	none;
+	width: 100%;
+	margin: 0 auto;
+
+}
+  .dws-fullwidth-button a.dws-button{
+   font-size: 190%;
+}
+.dws-three-col {
+    float: none;
+    width: 100%;
+    margin-right: 0 auto;
+	
+    text-align: center;
+	font-size: 180%;
+}
+.dws-portfolio-twothird {
+   float:	none;
+	width: 100%;
+	margin: 0 auto;
+}
+  .dws-portfolio-onethird {
+  float:	none;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/* PRORTFOLIO */
+
+ul.portfolioContainer li .lightCon {
+	max-height: 430px;
+    height: auto !important;
+}
+.dws-kw-three-col .Photo{
+	height: 550px;
+}
+.col-sm-4 {
+	width: 100% !important;
+	float: none !important;
+}
+.port-title h4{font-size: 250% !important; line-height: 180% !important;}
+.port-title p{font-size: 150% !important;}
+
+.dws-komp{
+	width:100%;
+	margin-right:0;
+	}
+	
+}
+
+@media (max-width: 450px){
+ul.portfolioContainer li .lightCon {
+	max-height: 260px;
+    height: auto !important;
+}
+.port-title h4{font-size: 160% !important; margin: 5px 0 !important;}
+
+.dws-kw-three-col .Photo{
+	height: auto;
+	min-height: 300px;
+}
+.dws-portfoliosingle-desc{
+
+    height: 24px;
+    /* width: 50%; */
+    font-size: 12px;
+    padding: 6px 20px 0 10px;
+	position: absolute;
+	bottom: 0;
+}
+
+
+}
